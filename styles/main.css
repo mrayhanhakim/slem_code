@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700&display=swap");
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../assets/fonts/Cocogoose_trial.otf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Navbar */
+.navbar {
+  display: flex;
+  background-color: #33ac1f;
+  align-items: center;
+  padding: 12px 14px;
+  border-bottom: 8px solid #1f6c12;
+}
+
+.nav-brand {
+  margin-right: auto;
+  font-family: "Cocogoose";
+  font-size: 24px;
+}
+
+.nav-link:not(.nav-brand) {
+  font-family: "Montserrat";
+  font-size: 18px;
+  margin-left: 32px;
+}
+
+a.nav-link,
+a.nav-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a#nav-user {
+  margin-left: 12px;
+}
+
+button.nav-link {
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: url("/assets/images/lang/Flag_of_Indonesia.svg") no-repeat center
+    center;
+  background-size: cover;
+  border-radius: 100px;
+  padding: 18px;
+}
