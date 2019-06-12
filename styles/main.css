@@ -47,11 +47,11 @@ button#nav-user {
 }
 
 button#lang-select {
-  background: url("/assets/images/lang/ind.svg") no-repeat center center;
+  background: url("../assets/images/lang/ind.svg") no-repeat center center;
 }
 
 button#nav-user {
-  background: url("/assets/images/avatar.jpg") no-repeat center center;
+  background: url("../assets/images/avatar.jpg") no-repeat center center;
 }
 
 button#lang-select,
