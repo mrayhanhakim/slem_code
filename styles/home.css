@@ -72,7 +72,7 @@ section#daftar-materi header > h1 {
       rgba(255, 255, 255, 0) 1.06%,
       rgba(14, 14, 14, 0.5) 99.87%
     ),
-    url("/assets/images/home/dap.jpg") no-repeat center center;
+    url("../assets/images/home/dap.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -87,7 +87,7 @@ section#daftar-materi header > h1 {
       rgba(255, 255, 255, 0) 1.06%,
       rgba(14, 14, 14, 0.5) 99.87%
     ),
-    url("/assets/images/home/cpp.jpg") no-repeat center center;
+    url("../assets/images/home/cpp.jpg") no-repeat center center;
   background-size: cover;
 }
 
