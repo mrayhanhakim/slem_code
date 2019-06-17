@@ -22,9 +22,13 @@ a {
 a.link-styling {
   color: white;
   background-color: #33ac1f;
-  padding: 14px 20px;
+  padding: 12px;
+  width: 8.5em;
+  text-align: center;
+  display: inline-block;
   font-size: 18px;
   border-radius: 17px;
+  font-weight: 900;
 }
 
 .return-link-container {
@@ -53,6 +57,7 @@ a.link-styling {
 .nav-link:not(.nav-brand) {
   font-size: 18px;
   margin-left: 32px;
+  font-weight: 900;
 }
 
 a.nav-link {

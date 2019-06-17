@@ -1,0 +1,97 @@
+/* Main Header */
+.main-header-wrapper {
+  position: fixed;
+  margin-top: 68px;
+  padding-top: 10px;
+  padding-bottom: 1em;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+.main-header > a {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.header-text-wrapper {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text-left {
+  margin-left: 1cm;
+}
+
+.header-text-left span {
+  font-size: 14px;
+}
+
+.date-published {
+  margin-left: 1.5em;
+  color: #c4c4c4;
+}
+
+.header-text-left div {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.header-text-right {
+  margin-right: 1cm;
+  align-self: center;
+}
+
+.header-text-right a {
+  margin-left: 1cm;
+}
+
+/* Content */
+.content-wrapper {
+  padding-top: 188px;
+  justify-content: center;
+  margin: 0 10cm;
+}
+
+.content-container {
+  margin-top: 3em;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";
+  color: #33ac1f;
+  font-size: 24pt;
+  font-weight: 900;
+  display: inline-block;
+  width: 0.5em;
+  margin-left: -1em;
+}
+
+.highlight-item {
+  color: #33ac1f;
+}
+
+.code-box-wrapper {
+  border: 3px solid #33ac1f;
+}
+
+.code-box-title {
+  color: white;
+  font-family: "Cocogoose";
+  background-color: #33ac1f;
+}
+
+.code-box {
+  background-color: #e0dfdf;
+}
+
+.code-box-title,
+.code-box {
+  padding: 12px 10px;
+}
