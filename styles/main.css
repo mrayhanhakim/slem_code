@@ -23,12 +23,19 @@ a.link-styling {
   color: white;
   background-color: #33ac1f;
   padding: 12px;
-  width: 8.5em;
+  min-width: 9em;
   text-align: center;
   display: inline-block;
   font-size: 18px;
   border-radius: 17px;
-  font-weight: 900;
+  font-weight: 700;
+}
+
+a.disable-link {
+  color: rgba(197, 196, 196, 0.4);
+  background-color: rgba(197, 196, 196, 0.4);
+  min-width: 9em;
+  justify-content: center;
 }
 
 .return-link-container {
@@ -57,46 +64,43 @@ a.link-styling {
 .nav-link:not(.nav-brand) {
   font-size: 18px;
   margin-left: 32px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 a.nav-link {
   color: white;
 }
 
-button#nav-user {
-  margin-left: 14px;
+button.nav-link.nav-user {
+  margin-left: 1px;
   margin-right: 14px;
 }
 
-button#lang-select {
-  background: url("../assets/images/lang/ind.svg") no-repeat center center;
-}
-
-button#nav-user {
-  background: url("../assets/images/avatar.jpg") no-repeat center center;
-}
-
-button#lang-select,
-button#nav-user {
+button.lang-select,
+button.nav-user {
   background-color: transparent;
-  border: 2px solid white;
+  border: none;
   outline: none;
   cursor: pointer;
-  background-size: cover;
-  border-radius: 100px;
-  padding: 18px;
+}
+
+.lang-select img,
+.nav-user img {
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
 }
 
 /* Footer */
-footer {
+.main-footer {
   display: flex;
   margin-top: 2cm;
   background-color: #1f6c12;
   align-items: center;
 }
 
-footer a.nav-link {
+.main-footer a.nav-link {
   background-color: #33ac1f;
   border-radius: 100%;
   padding: 7px 10px;
