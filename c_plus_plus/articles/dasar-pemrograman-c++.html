@@ -17,7 +17,9 @@
     />
     <link rel="stylesheet" href="/styles/main.css" />
     <link rel="stylesheet" href="/styles/articles.css" />
-    <link rel="stylesheet" href="/styles/articles-videos.css" />
+    <link rel="stylesheet" href="/styles/article-header.css" />
+    <link rel="stylesheet" href="/styles/code-box.css" />
+    <link rel="stylesheet" href="/styles/extras.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -33,28 +35,33 @@
       </button>
     </nav>
 
-    <section class="main-header-wrapper">
-      <header class="main-header return-link-container">
+    <header class="main-header-wrapper">
+      <div class="return-link-container">
         <a href="../">
           <i class="fas fa-chevron-left"></i>
           <span>Bahasa Pemrograman : C++ > articles</span>
         </a>
+      </div>
 
-        <div class="header-text-wrapper header-padding">
-          <div class="header-text-left">
-            <span>author-satu</span>
-            <span class="date-published gray-text">12 - Mei - 2019</span>
-            <div>Dasar Pemrograman C++</div>
-          </div>
-          <div class="header-text-right">
-            <a href="../videos/dasar-pemrograman-c++.html" class="link-styling"
-              >VIDEO</a
-            >
-            <a href="#" class="link-styling">LATIHAN</a>
-          </div>
+      <div class="header-text-wrapper header-padding">
+        <div class="header-text-left">
+          <span>author-satu</span>
+          <span class="date-published gray-text">12 - Mei - 2019</span>
+          <div>Dasar Pemrograman C++</div>
         </div>
-      </header>
-    </section>
+        <div class="header-text-right">
+          <a href="../videos/dasar-pemrograman-c++.html" class="link-styling">
+            VIDEO
+          </a>
+          <a
+            href="../practices/dasar-pemrograman-c++.html"
+            class="link-styling"
+          >
+            LATIHAN
+          </a>
+        </div>
+      </div>
+    </header>
 
     <div class="content-wrapper">
       <section class="content-container">
@@ -249,7 +256,7 @@
           </div>
         </article>
 
-        <footer class="article-footer">
+        <footer class="content-footer">
           <a href="#" class="link-article-footer disable-link">
             PREV
           </a>
@@ -266,9 +273,13 @@
         </header>
         <article class="reaction-container">
           <div class="reaction-button-wrapper">
-            <button class="reaction-button">Bagus banget !!</button>
-            <button class="reaction-button">Terima kasih</button>
-            <button class="reaction-button">Perlu perbaikan</button>
+            <button class="reaction-button button-style">
+              Bagus banget !!
+            </button>
+            <button class="reaction-button button-style">Terima kasih</button>
+            <button class="reaction-button button-style">
+              Perlu perbaikan
+            </button>
           </div>
           <span class="gray-text">0 responses</span>
         </article>

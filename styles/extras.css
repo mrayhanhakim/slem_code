@@ -1,58 +1,5 @@
-/* Article Header */
-.header-text-wrapper {
-  margin-top: 2em;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-padding {
-  padding: 0 1em;
-}
-
-.header-text-left span {
-  font-size: 14px;
-}
-
-.date-published {
-  margin-left: 1.5em;
-}
-
-.header-text-left div {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-.header-text-right {
-  align-self: center;
-}
-
-.header-text-right a {
-  margin-left: 1em;
-}
-
-/* Code Box */
-.code-box-wrapper {
-  border: 3px solid #33ac1f;
-}
-
-.code-box-title {
-  color: white;
-  font-family: "Cocogoose";
-  background-color: #33ac1f;
-}
-
-.code-box {
-  background-color: #e0dfdf;
-  font-size: 14px;
-}
-
-.code-box-title,
-.code-box {
-  padding: 12px 10px;
-}
-
 /* Article Footer */
-.article-footer {
+.content-footer {
   display: flex;
   margin-top: 1.5cm;
 }
@@ -71,8 +18,9 @@
   margin-right: auto;
 }
 
-.link-article-footer span:first-child {
-  margin-right: auto;
+.link-article-footer:last-child {
+  display: flex;
+  justify-content: space-between;
 }
 
 .link-article-footer span:last-child {
@@ -92,16 +40,10 @@
 }
 
 .reaction-button {
-  border: none;
-  outline: none;
   background-color: #33ac1f;
-  color: white;
   font-size: 12pt;
-  padding: 10px 14px;
-  border-radius: 16px;
   margin-right: 16px;
   font-weight: 700;
-  cursor: pointer;
 }
 
 /* Comment */
